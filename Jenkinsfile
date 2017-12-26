@@ -6,8 +6,8 @@ pipeline {
         stage('package') {
             steps {
                 sh 'mvn --version'
-                echo 'Building ...'
-                sh 'mvn install'
+                echo 'Install, build and package ...'
+                sh 'mvn package'
             }
         }
         stage('test') {
