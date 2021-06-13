@@ -1,2 +1,2 @@
 # myproject
-My maven submodule tests
+My maven submodule tests 
